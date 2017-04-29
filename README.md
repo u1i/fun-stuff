@@ -1,1 +1,1 @@
-# Some fun exoeriments and games
+# Some fun experiments and games
