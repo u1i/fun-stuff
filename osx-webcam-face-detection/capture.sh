@@ -20,7 +20,7 @@ while [ 1 ]
 do
 	convert snaps/$(ls -t snaps | head -1) -geometry 50% save.jpg
 	# cp snaps/$(ls -t snaps | head -1) save.jpg
-	./analyze_face.py save.jpg shell > data.txt
+	./analyze_face.py save.jpg shell > data.src
 	./gen_image.sh
 	mv out.jpg image.jpg 2>/dev/null
 done
