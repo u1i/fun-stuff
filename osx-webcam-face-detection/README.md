@@ -2,5 +2,6 @@
 
 ## Requirememts
 * MacBook (obviously)
-* ImageMagick
+* ImageMagick (via brew)
 * Azure Face API subscription
+* imagesnap (via brew)
