@@ -2,6 +2,8 @@
 
 An (almost) realtime facial anaylysis camera that shows age, gender of a person, points out where eyes and nose are on the face and makes a guess about the emotional expression on the face.
 
+![](https://github.com/u1i/fun-stuff/blob/master/osx-webcam-face-detection/sample.jpg?raw=true)
+
 ## Requirememts
 * MacBook (obviously) with a Python environment
 * ImageMagick (via brew)
