@@ -10,7 +10,7 @@ An facial anaylysis camera that shows age, gender of a person, highlights eyes a
 * uses a neural network on the cloud to analyze the face - age, gender, emotion, landmarks
 * adds the information to the image and displays it
 
-## Some more technical Details
+## Some more technical details
 
 * image capturing: there's many ways to do that, you can also use ffmpeg to do the task, I've also experimented with Droidcam (Android phone). Anything that gets you a constant stream of JPGs will do.
 * OSX is not Linux. Setting up Python and ImageMagick might be a bit trickier there.
