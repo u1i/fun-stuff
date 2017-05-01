@@ -6,7 +6,7 @@ then
 fi
 . ./data.src
 
-convert save.jpg -background Khaki  label:" Uli's Face Detection Cam - $(date)" +swap  -gravity Center -append \
+convert save.jpg   -gravity north -append \
           -gravity south \
           -stroke '#000C' -pointsize 50 -strokewidth 10 -annotate 0 "$emotion" \
           -stroke  none   -pointsize 50 -fill white    -annotate 0 "$emotion" \
@@ -20,3 +20,4 @@ $emotion.png -gravity northwest   -geometry  +0+30 -composite \
 out.jpg
 
 convert out.jpg -geometry 192x108! emo_$emotion.jpg
+
