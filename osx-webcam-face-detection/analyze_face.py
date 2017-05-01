@@ -8,6 +8,7 @@ import requests
 # Azure endpoint and access key
 endpoint="southeastasia.api.cognitive.microsoft.com"
 
+# Add your own here
 azure_subscription_key=""
 
 if len(sys.argv) < 3:
@@ -42,10 +43,6 @@ try:
     detect = json_data[0]["faceAttributes"]["age"]
 except:
     exit(1)
-
-#for emo in json_data[0]["faceAttributes"]["emotion"]:
-# 	print emo
-#	print json_data[0]["faceAttributes"]["emotion"][emo]
 
 # get the emotion with the highest score
 emotion_guess = max(json_data[0]["faceAttributes"]["emotion"], key=json_data[0]["faceAttributes"]["emotion"].get)
