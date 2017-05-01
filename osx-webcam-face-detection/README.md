@@ -1,6 +1,6 @@
 # Face Detection Photo Booth
 
-An facial anaylysis camera that shows age, gender of a person, highlights eyes and nose on the face and makes a guess about the emotional expression of the person - in (almost) real time!
+A facial anaylysis camera that shows age, gender of a person, highlights eyes and nose on the face and makes a guess about the emotional expression of the person - in (almost) real time!
 
 ![](https://github.com/u1i/fun-stuff/blob/master/osx-webcam-face-detection/sample.jpg?raw=true)
 
