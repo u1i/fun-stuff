@@ -17,6 +17,7 @@ A facial anaylysis camera that shows age, gender of a person, highlights eyes an
 * ImageMagick needs fonts, they don't always work right away on OSX. See [this link here](http://stackoverflow.com/questions/32421233/imagemagick-fonts-not-found-in-osx) how to fix it
 * image rendering is done in a separate shell-script. Once I figure out how to get the ImageMagick bindings working on Python/OSX we can combine this into one. Probably also a good idea to explore doing this with containers
 * index.html is a very basic page that uses JavaScript (not my strong side) to reload the images every second. Does it well enough but this could be done much nicer I guess.
+* this is really meant as a demo / prototype to show the concept. In a real solution you'd want a real time video stream, where the information is rendered into it using JavaScript. Help me to make this better!
 
 
 ## Requirememts
