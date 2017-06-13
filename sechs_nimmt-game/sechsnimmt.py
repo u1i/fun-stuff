@@ -258,7 +258,7 @@ while your_cards != []:
 
     for r in range(5):
         ox_row=get_ox_for_row(rows[r])
-        print "Row " + str(r+1) + " : " + str(rows[r]) + "\t----- Oxen: " + str(ox_row)
+        print "Row " + str(r+1) + " : " + str(rows[r]) + "\t\t\t----- Oxen: " + str(ox_row)
         #rowstr = print_row_with_oxen(rows[r])
 
         #print str(r+1) + " : " + rowstr
