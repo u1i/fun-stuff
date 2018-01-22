@@ -4,7 +4,7 @@ Using artificial intelligence computer vision to go through all images of [Uli's
 
 Here is a visual representation of a quantitative analysis of the tags the machine came up with, for a more accurate result we should probably only use data where the confidence level is > 75%  
 
-[![](http://cdn.sotong.io/insta/result_thb.png)](http://cdn.sotong.io/insta/result.png) 
+[![](http://cdn.sotong.io/insta/result.png)](http://cdn.sotong.io/insta/result.png) 
 
 * * *
 
